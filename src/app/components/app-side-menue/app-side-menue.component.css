@@ -1,0 +1,18 @@
+
+  
+  .home-icon {
+    border-bottom: solid 1px #eef1f6;
+    background-color: #eef1f6;
+    margin: 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: #0e0202; 
+  }
+  mat-panel-title{
+    font-weight: bold;
+  }

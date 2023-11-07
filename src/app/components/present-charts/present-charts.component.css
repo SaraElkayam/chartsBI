@@ -1,0 +1,9 @@
+.title-chart {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.chart{
+    height: 270px !important;
+}

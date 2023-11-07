@@ -1,0 +1,15 @@
+mat-drawer-container {
+    height: 87%;
+}
+
+mat-drawer {
+    width: 15%;
+}
+
+.side-menu {
+    flex: 2;
+}
+
+.router-outlet {
+    flex: 10;
+}

@@ -1,0 +1,54 @@
+<div class="home-icon" (click)="navigateToHomePage()">
+    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+</div>
+
+<mat-accordion displayMode="flat" position="end">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                הנקה
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div><a routerLink="/nusingByAge" routerLinkActive="active">מגמה שנתית לפי גיל</a></div>
+        <div><a routerLink="/percentNusingByAge" routerLinkActive="active">אחוז הנקה לפי גיל</a></div>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                סקרי דעת קהל
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <a routerLink="/scoreDifferenceFromAvgComponent" routerLinkActive="active">שביעות רצון המטופלים</a>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                קורונה
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p>דשבורד הקורונה הלאומי</p>
+        <p>מפת תחנות בדיקה</p>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                פוליו
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                התחסנות ילדים
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+    </mat-expansion-panel>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                מדדי איכות
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+    </mat-expansion-panel>
+</mat-accordion>
